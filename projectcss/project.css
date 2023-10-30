@@ -1,0 +1,131 @@
+body {
+  background-color: rgba(80, 79, 79, 0.199);
+}
+
+.signinbox {
+  color: black;
+}
+
+.signinbox .signinform {
+  width: 30em;
+  height: 20em;
+  background-color: white;
+  border-radius: 1em;
+  border: none;
+}
+
+.signinbox .signinform input {
+  position: relative;
+  left: 10em;
+  top: 2em;
+  margin-bottom: 2em;
+  height: 2.5em;
+  border: none;
+  border-radius: 1em;
+  background-color: #eeecec;
+}
+
+.signinbox .signinform .signinbutton {
+  position: relative;
+  left: 10em;
+  top: 2em;
+  width: 8em;
+  height: 3em;
+  border: none;
+  border-radius: .5em;
+  color: white;
+  background-color: #00806f;
+}
+
+.signinbox .signinform .signinbutton:hover {
+  background-color: tomato;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.signinbox .signinform .button1 {
+  background-color: tomato;
+  position: relative;
+  float: right;
+  margin-left: 10px;
+  height: 3em;
+  bottom: 1em;
+  margin-left: 5px;
+  border-radius: 2em;
+}
+
+.signinbox .signinform .button2 {
+  background-color: tomato;
+  position: relative;
+  float: right;
+  margin-left: 10px;
+  height: 3em;
+  bottom: 1em;
+  border-radius: 2em;
+}
+
+.signinbox .signinform .button3 {
+  background-color: tomato;
+  border-radius: 2em;
+  position: relative;
+  height: 3.5em;
+  bottom: 1em;
+  margin-left: 10px;
+  float: right;
+}
+
+button {
+  border: none;
+}
+
+.signinform:hover .button1 {
+  bottom: 3em;
+  background-color: #00806f;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.signinform:hover .button2 {
+  bottom: 4em;
+  -webkit-transition: 3s;
+  transition: 3s;
+  background-color: #00806f;
+}
+
+.signinform:hover .button3 {
+  bottom: 5em;
+  -webkit-transition: 4s;
+  transition: 4s;
+  background-color: #00806f;
+}
+
+.loginlink {
+  font-style: italic;
+  border: none;
+  width: 6em;
+  height: 2.5em;
+  background-color: tomato;
+  border-bottom-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+.loginlink a {
+  text-decoration: none;
+  color: black;
+}
+
+.loginlink:hover {
+  background-color: #00806f;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+}
+
+.loginlink:hover a {
+  color: white;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+/*# sourceMappingURL=project.css.map */

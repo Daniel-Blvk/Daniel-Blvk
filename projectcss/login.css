@@ -1,0 +1,134 @@
+body {
+  background-color: rgba(206, 206, 206, 0.575);
+}
+
+.login {
+  width: 30em;
+  height: 20em;
+  background-color: white;
+  border-radius: 3em;
+}
+
+.login h2 {
+  color: black;
+  background-color: white;
+  position: relative;
+  top: .9em;
+  text-align: center;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login .loginform {
+  border-radius: 3em;
+}
+
+.login .loginform form {
+  background-color: white;
+}
+
+.login .loginform form input {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #d1d0d0;
+  margin-left: 11em;
+  margin-bottom: 1em;
+  margin-top: 3.5em;
+  height: 2.5em;
+  border-bottom-left-radius: .5em;
+  border-top-right-radius: .5em;
+  border: none;
+}
+
+.login .loginform form .loginbutton {
+  margin-left: 15em;
+  height: 2.5em;
+  width: 6em;
+  border: none;
+  background-color: #00806f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login .loginform form .loginbutton a {
+  text-decoration: none;
+  color: black;
+}
+
+.login .loginform form .loginbutton:hover {
+  border-radius: .3em;
+  border: none;
+  background-color: tomato;
+  color: white;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.login .loginform form .loginbutton:hover a {
+  color: white;
+}
+
+.login .loginform .button1 {
+  background-color: tomato;
+  position: relative;
+  left: 4em;
+  margin-left: 10px;
+  height: 1em;
+  width: 2em;
+  bottom: 1em;
+  margin-left: 5px;
+  border-radius: 2em;
+  z-index: 1;
+}
+
+.login .loginform .button2 {
+  background-color: tomato;
+  position: relative;
+  left: 4em;
+  margin-left: 10px;
+  height: 1em;
+  bottom: 1em;
+  border-radius: 2em;
+}
+
+.login .loginform .button3 {
+  background-color: tomato;
+  border-radius: 2em;
+  position: relative;
+  left: 4em;
+  height: 1em;
+  width: 3em;
+  bottom: 1em;
+  margin-left: 10px;
+}
+
+.loginform:hover {
+  cursor: pointer;
+}
+
+.loginform:hover .button1 {
+  position: relative;
+  bottom: 12.5em;
+  -webkit-transition: 4s;
+  transition: 4s;
+  left: 7.5em;
+}
+
+.loginform:hover .button3 {
+  position: relative;
+  bottom: 5.5em;
+  -webkit-transition: 4s;
+  transition: 4s;
+  left: 1em;
+}
+
+.loginform:hover .button2 {
+  position: relative;
+  bottom: 1.5em;
+  -webkit-transition: 4s;
+  transition: 4s;
+  left: 9.5em;
+}
+/*# sourceMappingURL=login.css.map */

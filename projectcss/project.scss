@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(80, 79, 79, 0.199);
+}
+.signinbox{
+    color:rgb(0, 0, 0);
+    .signinform{
+        width: 30em;
+        height:20em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1em;
+        border:none;
+        
+
+    
+        input{
+            position: relative;
+            left:10em;
+            top:2em;
+            margin-bottom: 2em;
+            height:2.5em;
+            border:none;
+            border-radius: 1em;
+            background-color: rgb(238, 236, 236);
+        }
+        .signinbutton{
+            position: relative;
+            left:10em;
+            top:2em;
+            width:8em;
+            height:3em;
+            border:none;
+            border-radius: .5em;
+            color:white;
+            background-color: rgb(0, 128, 111);
+        }
+        .signinbutton:hover{
+            background-color: tomato;
+            transition: 1s;
+            cursor:pointer;
+        }
+        .button1{
+            background-color: tomato;
+            position: relative;
+            float:right;
+            margin-left: 10px;
+            height:3em;
+            bottom:1em;
+            margin-left:5px;
+            border-radius: 2em;
+            
+
+        }
+        .button2{
+            background-color: tomato;
+            position: relative;
+            float:right;
+            margin-left: 10px;
+            height: 3em;
+            bottom:1em;
+            border-radius: 2em;
+        }
+        .button3{
+            background-color: tomato;
+            border-radius: 2em;
+            position: relative;
+            height: 3.5em;
+            bottom:1em;
+            margin-left: 10px;
+            float:right;
+        }
+    }
+}
+button{
+    border:none;
+}
+.signinform:hover{
+    
+    .button1{
+        bottom:3em;
+        background-color: rgb(0, 128, 111);
+        transition: 2s;
+        
+    }
+    .button2{
+        bottom:4em;
+        transition:3s;
+        background-color: rgb(0, 128, 111);
+    }
+    .button3{
+        bottom:5em;
+        transition:4s;
+        background-color: rgb(0, 128, 111);
+    }
+
+}
+
+.loginlink{
+    font-style: italic;
+    border:none;
+    width:6em;
+    height:2.5em;
+    background-color: tomato;
+    border-bottom-left-radius:.5em;
+    border-top-right-radius:.5em;
+    a{
+        text-decoration: none;
+        color:black;
+    }
+}
+.loginlink:hover{
+    background-color: rgb(0, 128, 111);
+    transition:2s;
+    transition-delay: .6s;
+    a{
+        color:white;
+        transition:1.5s;
+    }
+
+}
